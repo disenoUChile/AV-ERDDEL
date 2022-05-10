@@ -3,8 +3,8 @@
 
 // Recursos adicionales: ej_02_pulsador_luz_intermitente_delay
 //                       ej_03_pulsador_luz_intermitente        x montoyamoraga
-//                       https://forum.arduino.cc/
-
+//                       https://forum.arduino.cc/*
+//                       https://forum.arduino.cc/t/using-millis-for-timing-a-beginners-guide/483573
 
 // 3 LEDs (VERDE, ROJO, AZUL), 1 POTENCIOMETRO, 1 PULSADOR
 
