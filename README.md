@@ -51,9 +51,11 @@ a continuación les dejo un breve borrador con ejemplos, que si completan, tendr
 
 ## acerca de
 
-este proyecto de mitad de semestre fue hecho en el día martes 10 de mayo 2022, como parte del curso  aud5i022-2022-1.
+Proyecto ARTE VISUAL DIGITAL: ESPEJO VIRTUAL DE DIODOS EMISORES DE LUZ, representacion digital de LEDs y sus cambios.
 
-los integrantes son X, Y, Z.
+[Martes 10 de Mayo, 2022]
+
+x Javier Burgos para aud5i022-2022-1. Diseño de interfaz eletrònica mediante Arduino - DOCENTE: Aaron Montoya Moraga - FAU.UCHILE -   
 
 ## lista de materiales
 
