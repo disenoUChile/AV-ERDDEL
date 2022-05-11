@@ -5,6 +5,7 @@
 //                       ej_03_pulsador_luz_intermitente        x montoyamoraga
 //                       https://forum.arduino.cc/*
 //                       https://forum.arduino.cc/t/using-millis-for-timing-a-beginners-guide/483573
+//                       https://forum.arduino.cc/t/how-to-make-two-conditions-in-an-if-statement/202090
 
 // 3 LEDs (VERDE, ROJO, AZUL), 1 POTENCIOMETRO, 1 PULSADOR
 
