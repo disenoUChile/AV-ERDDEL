@@ -51,7 +51,7 @@ a continuación les dejo un breve borrador con ejemplos, que si completan, tendr
 
 ## acerca de
 
-Proyecto ARTE VISUAL DIGITAL: ESPEJO VIRTUAL DE DIODOS EMISORES DE LUZ, representacion digital de LEDs y sus cambios.
+Proyecto ARTE VISUAL DIGITAL: REPRESENTACION VIRTUAL DE DIODOS EMISORES DE LUZ
 
 [Martes 10 de Mayo, 2022]
 
@@ -59,13 +59,14 @@ x Javier Burgos para aud5i022-2022-1. Diseño de interfaz eletrònica mediante A
 
 ## lista de materiales
 
-los materiales son:
-
-* Arduino Uno
-* protoboard
+* 1 Arduino Uno
+* 1 protoboard
+* 1 potenciómetro
+* 1 pulsador
+* 2 resistencias
+* 3 leds (verde, rojo, azul)
 * cables
-* potenciómetro
-* etc
+* 
 
 ## armado de circuito
 
