@@ -1,4 +1,4 @@
-// Codigo basado en ej_03_perilla_mapeo x montoyamoraga (v0.0.1 abril 2022)
+// Codigo basado en ej_06_perilla_mapeo x montoyamoraga (v0.0.1 abril 2022)
 // Hecho con Arduino Uno y IDE 1.8.19
 
 // Recursos adicionales: ej_02_pulsador_luz_intermitente_delay
