@@ -55,7 +55,6 @@ int estadoBoton = 0;
 
 // variable para pausa de intermitencia
 const long intervalo = 100;
-const long intervalo2 = 200;
 
 unsigned long tiempoAnterior = 0;
 unsigned long tiempoActual = 0;
@@ -106,12 +105,6 @@ void loop() {
   // Serial.print("actual, min, max, mapeado: ");
   Serial.print(valorSensor);
   Serial.print(", ");
-  // Serial.print(valorMin);
-  // Serial.print(", ");
-  // Serial.print(valorMax);
-  // Serial.print(", ");
-  // Serial.print(valorMapeado);
-  // Serial.print(", ");
   Serial.print(estadoBoton);
   Serial.println("");
 
@@ -128,9 +121,6 @@ void loop() {
   else {
     digitalWrite(pinRED, LOW);
 
-    // LED ROJO apagado con potenciometro a menos de la mitad
-    //if (valorSensor < 512) {
-    //  digitalWrite(pinRED, LOW);
   }
 
   // LED VERDE intermitente y prender LED AZUL cuando potenciometro llega al maximo
@@ -150,20 +140,7 @@ void loop() {
 
     if (estadoBoton == HIGH) {
       digitalWrite(pinVER, LOW);
-      //digitalWrite(pinRED, LOW);
       digitalWrite(pinBLU, estadoLED);
-
-
-      // comprobar si tiempo transcurrido es mayor que intervalo
-      //if (tiempoActual - tiempoAnterior >= intervalo) {
-
-      // actualizar tiempo previo
-      //tiempoAnterior = tiempoActual;
-
-      //estadoLED = !estadoLED;
-      //digitalWrite(pinBLU, estadoLED);
-
-      //}
 
     }
 
