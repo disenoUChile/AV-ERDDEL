@@ -27,21 +27,25 @@
 // LED AZUL conectado a digital 2
 
 
+// variable para pin de lectura información análoga
 int pinEntrada = A1;
 int pinBoton = 8;
 
-
+// pin de Arduino para cada led
 int pinVER = 6;
 int pinRED = 4;
 int pinBLU = 2;
 
+// variable para almacenar estado led
 int estadoLED = 0;
-int estadoLED2 = 0;
 
-
-// Potenciometro
+// variable para valor de potenciometro
 int valorSensor = 0;
 
+// variable para almacenar estado pulsador
+int estadoBoton = 0;
+
+// Mapeo
 int valorMin = 0;
 int valorMax = 1024;
 
@@ -49,9 +53,6 @@ int rangoMin = 0;
 int rangoMax = 255;
 
 int valorMapeado = 0;
-
-// variable para almacenar estado pulsador
-int estadoBoton = 0;
 
 // variable para pausa de intermitencia
 const long intervalo = 100;
@@ -150,6 +151,6 @@ void loop() {
     digitalWrite(pinBLU, LOW);
 
   }
-
+ 
 
 }
