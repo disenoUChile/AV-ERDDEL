@@ -95,7 +95,7 @@ Recursos adicionales:
 
 
 
-+Creamos:
+## +Creamos:
 
 * pinEntrada / pin de lectura de informaciòn anàloga. (Potenciometro)
 * pinBoton / pin de lectura de informacion analoga. (Pulsador)
@@ -104,7 +104,7 @@ Recursos adicionales:
 * pinVER / pin para controlar led VERDE.
 * pinRED / pin para controlar led ROJO.
 * pinBLU / pin para controar led AZUL.
---
+##
 
 * estadoLED / variable para almacenar estado led.
 * valorSensor / variable para almacenar valor de potenciometro.
@@ -112,7 +112,7 @@ Recursos adicionales:
 
 
 * valorMin - ValorMax - rangoMin - rangoMax - valorMapeado / variables para mapeo de valores.
---
+
 
 * intervalo / variable para valor de intermitencia.
 * tiempoAnterior - tiempoActual / variables para almacenar valores de tiempo. 
