@@ -52,6 +52,7 @@ Proyecto ARTE VISUAL DIGITAL: REPRESENTACION VIRTUAL DE DIODOS EMISORES DE LUZ
 [Martes 10 de Mayo, 2022]
 
 x Javier Burgos para aud5i022-2022-1. Diseño de interfaz eletrònica mediante Arduino - DOCENTE: Aaron Montoya Moraga - FAU.UCHILE -   
+____
 
 ## Lista de materiales
 
@@ -62,7 +63,7 @@ x Javier Burgos para aud5i022-2022-1. Diseño de interfaz eletrònica mediante A
 * 2 resistencias
 * 3 leds (verde, rojo, azul)
 * cables
-
+____
 
 ## armado de circuito
 
@@ -75,6 +76,8 @@ primero hacemos X y se ve así.
 después hacemos Y y se ve así.
 
 ![texto descripción de la foto](imagenes/00-ejemplo.jpg)
+
+____
 
 ## Código para microcontrolador Arduino
 
@@ -99,34 +102,25 @@ Recursos adicionales:
 
 * pinEntrada / pin de lectura de informaciòn anàloga. (Potenciometro)
 * pinBoton / pin de lectura de informacion analoga. (Pulsador)
-
-
+##
 * pinVER / pin para controlar led VERDE.
 * pinRED / pin para controlar led ROJO.
 * pinBLU / pin para controar led AZUL.
 ##
-
 * estadoLED / variable para almacenar estado led.
 * valorSensor / variable para almacenar valor de potenciometro.
 * estadoBoton / variable para almacenar estado de pulsador.
-
-
+##
 * valorMin - ValorMax - rangoMin - rangoMax - valorMapeado / variables para mapeo de valores.
-
-
+##
 * intervalo / variable para valor de intermitencia.
 * tiempoAnterior - tiempoActual / variables para almacenar valores de tiempo. 
 
-
-
-
-
-+En setup(): 
+## +En setup(): 
  
 * pinVER - pinRED - pinBLU / salidas digitales. (LEDs)
 * pinBoton / entrada analogo-digital. (Pulsador)
-_____
-
+##
 * Iniciar comunicacion serial 
 
 
