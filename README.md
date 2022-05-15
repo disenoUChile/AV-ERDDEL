@@ -92,9 +92,8 @@ Recursos adicionales:
   * [https://forum.arduino.cc/t/using-millis-for-timing-a-beginners-guide/483573](https://forum.arduino.cc/t/using-millis-for-timing-a-beginners-guide/483573)
   * [https://forum.arduino.cc/t/how-to-make-two-conditions-in-an-if-statement/202090](https://forum.arduino.cc/t/how-to-make-two-conditions-in-an-if-statement/202090)
 
-PASOS:
-
-Primero creamos las variables:
+PASOS
+Creamos:
 
 * pinEntrada / pin de lectura de informaciòn anàloga. (Potenciometro)
 * pinBoton / pin de lectura de informacion analoga. (Pulsador)
