@@ -8,7 +8,6 @@
 * carpeta [imagenes/](imagenes/):
   * archivo [/imagenes/00-ejemplo.jpg](/imagenes/00-ejemplo.jpg)
 * archivo [README.md](README.md)
-* archivo [README.pdf](README.pdf)
 ____
 
 
