@@ -45,10 +45,6 @@ para incluir imágenes que sean visibles en este documento, es igual que un enla
 
 ![texto descripción de la foto](imagenes/00-ejemplo.jpg)
 
-## borrador de muestra
-
-a continuación les dejo un breve borrador con ejemplos, que si completan, tendrán todos los puntos de la pauta, suerte!
-
 ## Acerca de
 
 Proyecto ARTE VISUAL DIGITAL: REPRESENTACION VIRTUAL DE DIODOS EMISORES DE LUZ
@@ -103,13 +99,16 @@ Primero creamos las variables:
 * pinEntrada / pin de lectura de informaciòn anàloga. (Potenciometro)
 * pinBoton / pin de lectura de informacion analoga. (Pulsador)
 
+
 * pinVER / pin para controlar led VERDE.
 * pinRED / pin para controlar led ROJO.
 * pinBLU / pin para controar led AZUL.
 
+
 * estadoLED / variable para almacenar estado led.
 * valorSensor / variable para almacenar valor de potenciometro.
 * estadoBoton / variable para almacenar estado de pulsador.
+
 
 * valorMin - ValorMax - rangoMin - rangoMax - valorMapeado / variables para mapeo de valores.
 
