@@ -47,7 +47,7 @@ para incluir imágenes que sean visibles en este documento, es igual que un enla
 
 ## Acerca de
 
-Proyecto ARTE VISUAL DIGITAL: REPRESENTACION VIRTUAL DE DIODOS EMISORES DE LUZ
+Proyecto ARTE VISUAL DIGITAL: EXPERIMENTANDO CON LA REPRESENTACION VIRTUAL DE DIODOS EMISORES DE LUZ
 
 [Martes 10 de Mayo, 2022]
 
