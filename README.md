@@ -1,14 +1,15 @@
 
 
-## contenidos de este repositorio
+## Contenidos de este repositorio
 
-* carpeta [codigo_arduino/](codigo_arduino/): carpeta para tener el codigo de tu proyecto
-  * archivo [odigo_arduino/codigo_arduino.ino](codigo_arduino/codigo_arduino.ino) : debe incluir encabezado y comentarios describiendo tu proyecto
-* carpeta [imagenes/](imagenes/): sube aquí las imágenes para tu proyecto.
-  * archivo [/imagenes/00-ejemplo.jpg](/imagenes/00-ejemplo.jpg) como ejemplo.
-* archivo [README.md](README.md)]: este mismo archivo, aquí escribe tus apuntes durante el proyecto.
-* archivo [README.pdf](README.pdf): este archivo pero convertido a PDF, puedes borrarlo.
-
+* carpeta [codigo_arduino/](codigo_arduino/):
+  * archivo 1 [codigo_arduino/sketch_may10a.ino](codigo_arduino/sketch_may10a.ino)
+  * archivo 2 [codigo_arduino/sketch_220510a.pde](codigo_arduino/sketch_220510a.pde)
+* carpeta [imagenes/](imagenes/)
+  * archivo [/imagenes/00-ejemplo.jpg](/imagenes/00-ejemplo.jpg)
+* archivo [README.md](README.md)]
+* archivo [README.pdf](README.pdf)
+____
 
 
 ## Acerca de
