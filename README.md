@@ -98,18 +98,15 @@ Primero creamos las variables:
 
 * pinEntrada / pin de lectura de informaciòn anàloga. (Potenciometro)
 * pinBoton / pin de lectura de informacion analoga. (Pulsador)
-
-
+-
 * pinVER / pin para controlar led VERDE.
 * pinRED / pin para controlar led ROJO.
 * pinBLU / pin para controar led AZUL.
-
-
+-
 * estadoLED / variable para almacenar estado led.
 * valorSensor / variable para almacenar valor de potenciometro.
 * estadoBoton / variable para almacenar estado de pulsador.
-
-
+-
 * valorMin - ValorMax - rangoMin - rangoMax - valorMapeado / variables para mapeo de valores.
 
 primero en setup() hacemos que los pines X e Y sean entradas digitales, el pin Z sea salida digital, y abrimos la comunicación serial.
