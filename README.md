@@ -123,13 +123,14 @@ Recursos adicionales:
 ##
 * Iniciar comunicacion serial 
 
+## +En loop():
 
 
+Actualizamos: 
 
-+En loop():
 
-
-luego en loop() leemos las entradas y usamos la salida Z para lograr prender una luz LED.
+* Tiempo actual con la funcion millis().
+* Valor del potenciometro con la funcion analogRead() sobre la variable pinEntrada. 
 
 ## conclusiones
 
