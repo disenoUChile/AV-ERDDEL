@@ -49,7 +49,7 @@ para incluir imágenes que sean visibles en este documento, es igual que un enla
 
 a continuación les dejo un breve borrador con ejemplos, que si completan, tendrán todos los puntos de la pauta, suerte!
 
-## acerca de
+## Acerca de
 
 Proyecto ARTE VISUAL DIGITAL: REPRESENTACION VIRTUAL DE DIODOS EMISORES DE LUZ
 
@@ -57,7 +57,7 @@ Proyecto ARTE VISUAL DIGITAL: REPRESENTACION VIRTUAL DE DIODOS EMISORES DE LUZ
 
 x Javier Burgos para aud5i022-2022-1. Diseño de interfaz eletrònica mediante Arduino - DOCENTE: Aaron Montoya Moraga - FAU.UCHILE -   
 
-## lista de materiales
+## Lista de materiales
 
 * 1 Arduino Uno
 * 1 protoboard
@@ -80,7 +80,7 @@ después hacemos Y y se ve así.
 
 ![texto descripción de la foto](imagenes/00-ejemplo.jpg)
 
-## código para microcontrolador Arduino
+## Código para microcontrolador Arduino
 
 El código está hecho para Arduino Uno, y está incluido el repositorio: [codigo_arduino/sketch_may10a.ino](codigo_arduino/sketch_may10a.ino).
 
@@ -96,7 +96,22 @@ Recursos adicionales:
   * [https://forum.arduino.cc/t/using-millis-for-timing-a-beginners-guide/483573](https://forum.arduino.cc/t/using-millis-for-timing-a-beginners-guide/483573)
   * [https://forum.arduino.cc/t/how-to-make-two-conditions-in-an-if-statement/202090](https://forum.arduino.cc/t/how-to-make-two-conditions-in-an-if-statement/202090)
 
-primero creamos las variables blabla para almacenar valores para blabla. la variabla bla es análoga en el rango blabla y la variable blabla es digital y tiene valores posibles 0 y 1.
+PASOS:
+
+Primero creamos las variables:
+
+* pinEntrada / pin de lectura de informaciòn anàloga. (Potenciometro)
+* pinBoton / pin de lectura de informacion analoga. (Pulsador)
+
+* pinVER / pin para controlar led VERDE.
+* pinRED / pin para controlar led ROJO.
+* pinBLU / pin para controar led AZUL.
+
+* estadoLED / variable para almacenar estado led.
+* valorSensor / variable para almacenar valor de potenciometro.
+* estadoBoton / variable para almacenar estado de pulsador.
+
+* valorMin - ValorMax - rangoMin - rangoMax - valorMapeado / variables para mapeo de valores.
 
 primero en setup() hacemos que los pines X e Y sean entradas digitales, el pin Z sea salida digital, y abrimos la comunicación serial.
 
@@ -109,7 +124,7 @@ en este proyecto tuvimos los siguientes aprendizajes:
 * botón pulsador
 * circuito para 
 
-lo más difícil de este proyecto fue bla.
+lo más difícil de este proyecto fue bla. 
 
 cometimos los siguientes errores durante el armado del circuito y en el código, y los solucionamos así y este error no lo supimos resolver.
 
