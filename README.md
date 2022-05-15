@@ -5,9 +5,9 @@
 * carpeta [codigo_arduino/](codigo_arduino/):
   * archivo 1 [codigo_arduino/sketch_may10a.ino](codigo_arduino/sketch_may10a.ino)
   * archivo 2 [codigo_arduino/sketch_220510a.pde](codigo_arduino/sketch_220510a.pde)
-* carpeta [imagenes/](imagenes/)
+* carpeta [imagenes/](imagenes/):
   * archivo [/imagenes/00-ejemplo.jpg](/imagenes/00-ejemplo.jpg)
-* archivo [README.md](README.md)]
+* archivo [README.md](README.md)
 * archivo [README.pdf](README.pdf)
 ____
 
