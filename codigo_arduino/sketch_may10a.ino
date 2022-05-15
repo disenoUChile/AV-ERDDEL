@@ -85,32 +85,22 @@ void loop() {
 
   // actualizar valor sensor
   valorSensor = analogRead(pinEntrada);
-
-  // actualizar valor minimo
-  if (valorSensor < valorMin) {
-    valorMin = valorSensor;
-  }
-
-  if (valorSensor > valorMax) {
-    valorMax = valorSensor;
-  }
+  
+  // leer pin y actualizar variable intern
+  estadoBoton = digitalRead(pinBoton);
 
   // mapear valor
   valorMapeado = map(valorSensor, valorMin, valorMax, rangoMin, rangoMax);
 
-  // leer pin y actualizar variable interna
-  estadoBoton = digitalRead(pinBoton);
-
-
-  // imprimir valores min y max
-  // Serial.print("actual, min, max, mapeado: ");
+  
+  // imprimir valor potenciometro y pulsador
   Serial.print(valorSensor);
   Serial.print(", ");
   Serial.print(estadoBoton);
   Serial.println("");
 
   // prender LED VERDE segun brillo
-  if (valorSensor < 1020) {
+  if (valorSensor < 1022) {
     analogWrite(pinVER, valorMapeado);
   }
 
@@ -125,10 +115,10 @@ void loop() {
   }
 
   // LED VERDE intermitente y prender LED AZUL cuando potenciometro llega al maximo
-  if (valorSensor > 1020) {
+  if (valorSensor > 1022) {
     analogWrite(pinBLU, valorMapeado);
 
-        // comprobar si tiempo transcurrido es mayor que intervalo
+    // comprobar si tiempo transcurrido es mayor que intervalo
     if (tiempoActual - tiempoAnterior >= intervalo) {
 
       // actualizar tiempo previo
@@ -151,6 +141,6 @@ void loop() {
     digitalWrite(pinBLU, LOW);
 
   }
- 
+
 
 }
