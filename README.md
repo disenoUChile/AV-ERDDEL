@@ -106,8 +106,19 @@ Recursos adicionales:
 * estadoBoton / variable para almacenar estado de pulsador.
 -
 * valorMin - ValorMax - rangoMin - rangoMax - valorMapeado / variables para mapeo de valores.
+-
+* intervalo / variable para valor de intermitencia.
+* tiempoAnterior - tiempoActual / variables para almacenar valores de tiempo. 
 
-primero en setup() hacemos que los pines X e Y sean entradas digitales, el pin Z sea salida digital, y abrimos la comunicación serial.
++En setup(): 
+ 
+* pinVER - pinRED - pinBLU / salidas digitales. (LEDs)
+* pinBoton / entrada analogo-digital. (Pulsador)
+-
+* Iniciar comunicacion serial 
+
++En loop():
+
 
 luego en loop() leemos las entradas y usamos la salida Z para lograr prender una luz LED.
 
