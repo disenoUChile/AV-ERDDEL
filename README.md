@@ -135,7 +135,85 @@ ____
 
 ## Codigo para Proccesing
   
-* 
+**Repositorio: [codigo_arduino/sketch_220510a.pde](codigo_arduino/sketch_220510a.pde).**
+##
+
+**-Código basado en:**
+
+ej_00_processing_recibe_numeros x montoyamoraga (v0.0.1 mayo 2022): <br />
+<sub> [https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-08/ej_00_processing_recibe_numeros](https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-08/ej_00_processing_recibe_numeros) </sub>
+
+##
+
+-Recursos adicionales:
+
+<sub>  clase-08-ejemplo-p5js-elipse <br />
+ [https://github.com/aud5i022-2022-1/clase-08-ejemplo-p5js-elipse](https://github.com/aud5i022-2022-1/clase-08-ejemplo-p5js-elipse). </sub>
+
+<sub> **Arduino.cc** </sub>
+* <sub> [https://docs.arduino.cc/built-in-examples/communication/VirtualColorMixer](https://docs.arduino.cc/built-in-examples/communication/VirtualColorMixer) </sub>
+
+##
+##
+
+
+### +Creamos:
+
+* pinEntrada / pin de lectura de informaciòn anàloga. (<sub>Potenciometro</sub>)
+* pinBoton / pin de lectura de informacion analoga. (Pulsador)
+##
+* pinVER / pin para controlar led VERDE.
+* pinRED / pin para controlar led ROJO.
+* pinBLU / pin para controar led AZUL.
+##
+* estadoLED / variable para almacenar estado led.
+* valorSensor / variable para almacenar valor de potenciometro.
+* estadoBoton / variable para almacenar estado de pulsador.
+##
+* valorMin - ValorMax - rangoMin - rangoMax - valorMapeado / variables para mapeo de valores.
+##
+* intervalo / variable para valor de intermitencia.
+* tiempoAnterior - tiempoActual / variables para almacenar valores de tiempo. 
+
+### +En setup(): 
+ 
+* pinVER - pinRED - pinBLU / salidas digitales. (LEDs)
+* pinBoton / entrada analogo-digital. (Pulsador)
+##
+* Iniciar comunicacion serial 
+
+### +En loop():
+
+
+**Actualizamos:**
+
+
+* Tiempo actual con la funcion millis(). (funcion nos entrega la cantidad de milisegundos desde que el programa esta trabajando) 
+* Valor del potenciometro con la funcion analogRead() sobre la variable pinEntrada.
+* Valor del pulsador (estadoBoton) con la funcion digitalRead() sobre la variable pinBoton.
+##
+*  Usamos funcion map() para cambiar de rango los valores recibidos del potenciometro.
+## 
+* Imprimimos los valores (Serial.print) del potenciometro (valorSensor) y pulsador (estadoBoton).
+## 
+**Por medio de la condicion if:**
+* Led verde encendido mientras valor del potenciometro sea menor a 1020
+##
+* Led rojo encendido si valor del potenciometro supera los 512.
+  * De otro modo, led rojo apagado.
+##
+* Si valor del potenciometro es mayor a 1020:
+  * Led azul encendido
+  * Si tiempo actual es mayor al intervalo:
+     * Cambiar estado de led verde entre apagado y encencido, por medio del operador booleano "!".
+  * Si pulsador esta apretado (HIGH):
+     * Led verde apagado
+     * Led azul intermitente 
+
+
+  * De otro modo, led azul apagado.
+    
+____ 
 
 ## conclusiones
 
