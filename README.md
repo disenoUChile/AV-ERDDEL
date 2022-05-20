@@ -45,11 +45,11 @@ ____
 
 ## Código para Arduino uno
 
-** Repositorio: [codigo_arduino/sketch_may10a.ino](codigo_arduino/sketch_may10a.ino). **
+**Repositorio: [codigo_arduino/sketch_may10a.ino](codigo_arduino/sketch_may10a.ino).**
 
 -Código basado en:
 
-** <sub> ej_06_perilla_mapeo x montoyamoraga (v0.0.1 abril 2022): [https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-05/ej_06_perilla_mapeo](https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-05/ej_06_perilla_mapeo) </sub> **
+**<sub> ej_06_perilla_mapeo x montoyamoraga (v0.0.1 abril 2022): [https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-05/ej_06_perilla_mapeo](https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-05/ej_06_perilla_mapeo) </sub>**
 
 Recursos adicionales: 
 
