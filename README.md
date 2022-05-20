@@ -1,6 +1,6 @@
 
 
-## Contenidos de este repositorio
+#### C ontenidos de este repositorio
 
 * carpeta [codigo_arduino/](codigo_arduino/):
   * archivo 1 [codigo_arduino/sketch_may10a.ino](codigo_arduino/sketch_may10a.ino)
@@ -11,7 +11,7 @@
 ____
 
 
-## Acerca de
+# Acerca de
 
 Proyecto ARTE VISUAL: EXPERIMENTANDO CON LA REPRESENTACION DIGITAL DE DIODOS EMISORES DE LUZ - visualizacion y principios de interfaz interactiva.
 
@@ -64,7 +64,7 @@ Recursos adicionales:
 
 
 
-## +Creamos:
+### +Creamos:
 
 * pinEntrada / pin de lectura de informaciòn anàloga. (Potenciometro)
 * pinBoton / pin de lectura de informacion analoga. (Pulsador)
@@ -82,17 +82,17 @@ Recursos adicionales:
 * intervalo / variable para valor de intermitencia.
 * tiempoAnterior - tiempoActual / variables para almacenar valores de tiempo. 
 
-## +En setup(): 
+### +En setup(): 
  
 * pinVER - pinRED - pinBLU / salidas digitales. (LEDs)
 * pinBoton / entrada analogo-digital. (Pulsador)
 ##
 * Iniciar comunicacion serial 
 
-## +En loop():
+### +En loop():
 
 
-Actualizamos: 
+#####Actualizamos: 
 
 
 * Tiempo actual con la funcion millis(). (funcion nos entrega la cantidad de milisegundos desde que el programa esta trabajando) 
@@ -103,7 +103,7 @@ Actualizamos:
 ## 
 * Imprimimos los valores (Serial.print) del potenciometro (valorSensor) y pulsador (estadoBoton).
 ## 
-Por medio de la condicion if:
+######Por medio de la condicion if:
 * Led verde encendido mientras valor del potenciometro sea menor a 1020
 ##
 * Led rojo encendido si valor del potenciometro supera los 512.
@@ -115,7 +115,7 @@ Por medio de la condicion if:
   *     - Cambiar estado de led verde entre apagado y encencido, por medio del operador booleano "!".
   * Si pulsador esta apretado (HIGH):
   *     - Led verde apagado
-  *     - Led azul intermitente
+  *     - Led azul intermitente 
   *     -
   * De otro modo, led azul apagado.
     
@@ -127,7 +127,7 @@ Por medio de la condicion if:
 en este proyecto tuvimos los siguientes aprendizajes: 
 
 * botón pulsador
-* circuito para 
+* circuito para
 
 lo más difícil de este proyecto fue bla. 
 
