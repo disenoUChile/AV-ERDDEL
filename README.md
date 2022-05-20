@@ -17,7 +17,7 @@ Proyecto ARTE VISUAL: EXPERIMENTANDO CON LA REPRESENTACION DIGITAL DE DIODOS EMI
 
 [Martes 10 de Mayo, 2022]
 
-<sub> x Javier Burgos para aud5i022-2022-1. Diseño de interfaz eletrònica mediante Arduino - DOCENTE: Aaron Montoya Moraga - FAU.UCHILE -  </sub> 
+<sub> x **Javier Burgos** para aud5i022-2022-1. Diseño de interfaz eletrònica mediante Arduino - DOCENTE: **Aaron Montoya Moraga** - FAU.UCHILE -  </sub> 
 ____
 
 ## Lista de materiales
