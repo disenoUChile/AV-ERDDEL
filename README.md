@@ -31,9 +31,7 @@ ____
 * cables
 ____
 
-## armado de circuito
-
-estos son los pasos para armar el circuito.
+## Armado de circuito
 
 primero hacemos X y se ve así.
 
@@ -45,7 +43,7 @@ después hacemos Y y se ve así.
 
 ____
 
-## Código para microcontrolador Arduino uno
+## Código para Arduino uno
 
 Repositorio: [codigo_arduino/sketch_may10a.ino](codigo_arduino/sketch_may10a.ino).
 
