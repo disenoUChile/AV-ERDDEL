@@ -90,7 +90,7 @@ Recursos adicionales:
 ### +En loop():
 
 
-##### Actualizamos: 
+**Actualizamos: 
 
 
 * Tiempo actual con la funcion millis(). (funcion nos entrega la cantidad de milisegundos desde que el programa esta trabajando) 
@@ -101,7 +101,7 @@ Recursos adicionales:
 ## 
 * Imprimimos los valores (Serial.print) del potenciometro (valorSensor) y pulsador (estadoBoton).
 ## 
-##### Por medio de la condicion if:
+**Por medio de la condicion if:
 * Led verde encendido mientras valor del potenciometro sea menor a 1020
 ##
 * Led rojo encendido si valor del potenciometro supera los 512.
