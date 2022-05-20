@@ -44,8 +44,8 @@ después hacemos Y y se ve así.
 
 ____
 
-## Código para Arduino uno <br />
-<sub> Controla LEDs por medio de potenciometro y pulsador
+## Código para Arduino uno <br /> <sub> Controla LEDs por medio de potenciometro y pulsador </sub>
+
 
 **Repositorio: [codigo_arduino/sketch_may10a.ino](codigo_arduino/sketch_may10a.ino).**
 ##
