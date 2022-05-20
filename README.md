@@ -1,6 +1,6 @@
 
 
-#### C ontenidos de este repositorio
+#### Contenidos de este repositorio
 
 * carpeta [codigo_arduino/](codigo_arduino/):
   * archivo 1 [codigo_arduino/sketch_may10a.ino](codigo_arduino/sketch_may10a.ino)
@@ -92,7 +92,7 @@ Recursos adicionales:
 ### +En loop():
 
 
-#####Actualizamos: 
+##### Actualizamos: 
 
 
 * Tiempo actual con la funcion millis(). (funcion nos entrega la cantidad de milisegundos desde que el programa esta trabajando) 
@@ -103,7 +103,7 @@ Recursos adicionales:
 ## 
 * Imprimimos los valores (Serial.print) del potenciometro (valorSensor) y pulsador (estadoBoton).
 ## 
-######Por medio de la condicion if:
+###### Por medio de la condicion if:
 * Led verde encendido mientras valor del potenciometro sea menor a 1020
 ##
 * Led rojo encendido si valor del potenciometro supera los 512.
