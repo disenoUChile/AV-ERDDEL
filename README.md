@@ -20,7 +20,7 @@ Proyecto ARTE VISUAL: EXPERIMENTANDO CON LA REPRESENTACION DIGITAL DE DIODOS EMI
 <sub> x **Javier Burgos** para aud5i022-2022-1. Diseño de interfaz eletrònica mediante Arduino - DOCENTE: **Aaron Montoya Moraga** - FAU.UCHILE -  </sub> 
 ____
 
-### Materiales
+#### Materiales
 
 * 1 Arduino Uno
 * 1 protoboard
