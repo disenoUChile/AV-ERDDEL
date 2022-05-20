@@ -111,12 +111,13 @@ Recursos adicionales:
 ##
 * Si valor del potenciometro es mayor a 1020:
   * Led azul encendido
-    * Si tiempo actual es mayor al intervalo:
+  * Si tiempo actual es mayor al intervalo:
      * Cambiar estado de led verde entre apagado y encencido, por medio del operador booleano "!".
-    * Si pulsador esta apretado (HIGH):
-  *     - Led verde apagado
-  *     - Led azul intermitente 
-  *     -
+  * Si pulsador esta apretado (HIGH):
+     * Led verde apagado
+     * Led azul intermitente 
+
+
   * De otro modo, led azul apagado.
     
   
