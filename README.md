@@ -54,6 +54,8 @@ ____
 ej_06_perilla_mapeo x montoyamoraga (v0.0.1 abril 2022): <br />
 <sub> [https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-05/ej_06_perilla_mapeo](https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-05/ej_06_perilla_mapeo) </sub>
 
+##
+
 -Recursos adicionales:
 
 <sub> ej_02_pulsador_luz_intermitente_delay <br />
@@ -69,6 +71,7 @@ ej_06_perilla_mapeo x montoyamoraga (v0.0.1 abril 2022): <br />
 * <sub> [https://forum.arduino.cc/t/how-to-make-two-conditions-in-an-if-statement/202090](https://forum.arduino.cc/t/how-to-make-two-conditions-in-an-if-statement/202090) </sub>
 
 
+##
 ##
 
 
