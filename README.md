@@ -66,7 +66,7 @@ Recursos adicionales:
 
 ### +Creamos:
 
-* pinEntrada / pin de lectura de informaciòn anàloga. (Potenciometro)
+* pinEntrada / pin de lectura de informaciòn anàloga. (<sub>Potenciometro</sub>)
 * pinBoton / pin de lectura de informacion analoga. (Pulsador)
 ##
 * pinVER / pin para controlar led VERDE.
