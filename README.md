@@ -134,6 +134,7 @@ ej_06_perilla_mapeo x montoyamoraga (v0.0.1 abril 2022): <br />
 ____
 
 ## Codigo para Proccesing
+Recibe y procesa datos desde arduino uno para generar visualizaciones.
   
 **Repositorio: [codigo_arduino/sketch_220510a.pde](codigo_arduino/sketch_220510a.pde).**
 ##
