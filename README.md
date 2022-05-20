@@ -98,11 +98,13 @@ Actualizamos:
 * Tiempo actual con la funcion millis(). (funcion nos entrega la cantidad de milisegundos desde que el programa esta trabajando) 
 * Valor del potenciometro con la funcion analogRead() sobre la variable pinEntrada.
 * Valor del pulsador con la funcion digitalRead() sobre la variable pinBoton.
-* ## Usamos funcion map() para cambiar de rango los valores recibidos del potenciometro.
+
+
+* ##
+*  Usamos funcion map() para cambiar de rango los valores recibidos del potenciometro.
 ## 
 * Imprimimos los valores del potenciometro (valorSensor) y pulsador (estadoBoton).
 ## 
-##
 Por medio de la condicion if:
 * Led verde encendido mientras valor del potenciometro sea menor 1020
 
