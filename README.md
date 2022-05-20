@@ -51,8 +51,8 @@ ____
 
 **-Código basado en:**
 
-ej_06_perilla_mapeo x montoyamoraga (v0.0.1 abril 2022): 
-* <sub> [https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-05/ej_06_perilla_mapeo](https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-05/ej_06_perilla_mapeo) </sub>
+ej_06_perilla_mapeo x montoyamoraga (v0.0.1 abril 2022): <br />
+<sub> [https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-05/ej_06_perilla_mapeo](https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-05/ej_06_perilla_mapeo) </sub>
 
 -Recursos adicionales: 
 
@@ -60,7 +60,8 @@ ej_06_perilla_mapeo x montoyamoraga (v0.0.1 abril 2022):
  [https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-05/ej_02_pulsador_luz_intermitente_delay](https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-05/ej_02_pulsador_luz_intermitente_delay). </sub>
 
 
-<sub> ej_03_pulsador_luz_intermitente [https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-05/ej_03_pulsador_luz_intermitente](https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-05/ej_03_pulsador_luz_intermitente) </sub>
+<sub> ej_03_pulsador_luz_intermitente <br />
+ [https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-05/ej_03_pulsador_luz_intermitente](https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-05/ej_03_pulsador_luz_intermitente) </sub>
 
 
 <sub> **Arduino.cc** </sub>
