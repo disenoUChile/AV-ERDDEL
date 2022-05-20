@@ -97,17 +97,30 @@ Actualizamos:
 
 * Tiempo actual con la funcion millis(). (funcion nos entrega la cantidad de milisegundos desde que el programa esta trabajando) 
 * Valor del potenciometro con la funcion analogRead() sobre la variable pinEntrada.
-* Valor del pulsador con la funcion digitalRead() sobre la variable pinBoton.
-
-
-* ##
+* Valor del pulsador (estadoBoton) con la funcion digitalRead() sobre la variable pinBoton.
+##
 *  Usamos funcion map() para cambiar de rango los valores recibidos del potenciometro.
 ## 
-* Imprimimos los valores del potenciometro (valorSensor) y pulsador (estadoBoton).
+* Imprimimos los valores (Serial.print) del potenciometro (valorSensor) y pulsador (estadoBoton).
 ## 
 Por medio de la condicion if:
-* Led verde encendido mientras valor del potenciometro sea menor 1020
-
+* Led verde encendido mientras valor del potenciometro sea menor a 1020
+##
+* Led rojo encendido si valor del potenciometro supera los 512.
+  * De otro modo, led rojo apagado.
+##
+* Si valor del potenciometro es mayor a 1020:
+  * Led azul encendido
+  * Si tiempo actual es mayor al intervalo:
+  *     - Cambiar estado de led verde entre apagado y encencido, por medio del operador booleano "!".
+  * Si pulsador esta apretado (HIGH):
+  *     - Led verde apagado
+  *     - Led azul intermitente
+  *     -
+  * De otro modo, led azul apagado.
+    
+  
+* 
 
 ## conclusiones
 
