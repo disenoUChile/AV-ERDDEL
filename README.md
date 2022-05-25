@@ -199,92 +199,59 @@ ej_00_processing_recibe_numeros x montoyamoraga (v0.0.1 mayo 2022): <br />
 ### +En draw():
 
 * Color del fondo del display.
+* Actualizar tiempo actual.
 * Elipse verde:
   * Controlar nivel de color por medio de varable **valorColor** (Potenciometro) 
   * Si pulsador no esta presionado y potenciometro al "maximo":
-    * Actualizar tiempo actual
     * Si tiempo transcurrido es mayor al intervalo:
-      * Elipse verde    
+      * Actualizar tiempo previo. 
+      * Elipse verde parpadea.
+  * Si pulsador esta presionado y potenciometro al maximo:
+    * Elipse desaparece.
+  * Dibujar elipse.
 
 
-**Actualizamos:**
+* Elipse rojo:
+  * Si nivel de potenciometro mayor a 125:
+    * Elipse rojo aparece y controlado por medio de variable **valorColor** (Potenciometro)
+  * De otro modo desaparece.
+  * Dibujar elipse.
 
+     
+* Elipse azul:
+  * Si nivel de potenciometro al maximo:
+    * Elipse azul aparece.
+    * Si pulsador esta presionado:
+      * Actualizar tiempo previo
+      * Elipse azul parpadea.
+  * De otro modo desaparece.    
+  * Dibujar elipse.         
 
-* Tiempo actual con la funcion millis(). (funcion nos entrega la cantidad de milisegundos desde que el programa esta trabajando) 
-* Valor del potenciometro con la funcion analogRead() sobre la variable pinEntrada.
-* Valor del pulsador (estadoBoton) con la funcion digitalRead() sobre la variable pinBoton.
-##
-*  Usamos funcion map() para cambiar de rango los valores recibidos del potenciometro.
-## 
-* Imprimimos los valores (Serial.print) del potenciometro (valorSensor) y pulsador (estadoBoton).
-## 
-**Por medio de la condicion if:**
-* Led verde encendido mientras valor del potenciometro sea menor a 1020
-##
-* Led rojo encendido si valor del potenciometro supera los 512.
-  * De otro modo, led rojo apagado.
-##
-* Si valor del potenciometro es mayor a 1020:
-  * Led azul encendido
-  * Si tiempo actual es mayor al intervalo:
-     * Cambiar estado de led verde entre apagado y encencido, por medio del operador booleano "!".
-  * Si pulsador esta apretado (HIGH):
-     * Led verde apagado
-     * Led azul intermitente 
-
-
-  * De otro modo, led azul apagado.
-    
 ____ 
+____
 
-## conclusiones
+## Conclusiones
 
-en este proyecto tuvimos los siguientes aprendizajes: 
+Aprendizajes: 
 
-* botón pulsador
-* circuito para
-
-lo más difícil de este proyecto fue bla. 
-
-cometimos los siguientes errores durante el armado del circuito y en el código, y los solucionamos así y este error no lo supimos resolver.
-
-este proyecto lo vemos como la base para lograr bla, nos hace pensar en bla, y nos gustaría expandirlo para 10 botones y mil luces y diez arduinos conectados por wifi.
+* Circuito conectado de un potenciometro, botón pulsador y 3 leds.
+* Aplicacion de millis() para lograr intermitencia en la luz.
+* Proyeccion digital de los diodos y sus cambios.   
 
 
-## ejemplos útiles
+Las dificultades de este proyecto fueron escribir el readme file y los comentarios dentro del codigo. 
 
-cada párrafo es una línea continua de texto. los puntos "." son para punto seguido.
-esta línea está escrita en la siguiente línea en el archivo, pero se ve seguida a la anterior.
 
-para hacer un nuevo párrafo, hay que dejar una línea en blanco entremedio.
+El circuito utiliza 2 resistencias. Al utilizar solo una dejo de funcionar, problema fue resuelto de este modo y no se siguio investigando.
 
-* las
-* listas
-* son
-* así
-  * las sub-listas
-  * son así
-  * con dos espacios de indentación
 
-los enlaces se hacen con corchetes y después paréntesis. el texto dentro de corchetes es lo que se ve en el enlace, y el texto dentro de paréntesis es dónde va ese enlace. les pido que sea el mismo texto. aquí ejemplos de enlaces a web y a otros archivos dentro de este repositorio.
+Se trato de encontrar otro modo de lograr la intermitencia en los elipses verde y azul, no se ha logrado por el momento, investigacion abierta.
 
-* [https://www.wikipedia.org/](https://www.wikipedia.org/)
-* [https://www.arduino.cc/](https://www.arduino.cc/)
-* [imagenes/00-ejemplo.jpg](imagenes/00-ejemplo.jpg)
-* [codigo_arduino/codigo_arduino.ino](codigo_arduino/codigo_arduino.ino)
+Este proyecto permite interiorizarse en el desarollo de visuales y displays interactivos, tanto con arduino uno, como con mouse, teclado, etc. 
+* Conectar inputs analogos con respuestas y cambios digitales. 
+* Lograr representaciones virtuales que simulen cambios fisicos (ej.luz) en el espacio.
+  * Posible aplicacion para lograr una experiencia inmersiva y/o conectar-controlar los cambios, tanto digitales como analogos (visuales y luces).
 
-para incluir imágenes que sean visibles en este documento, es igual que un enlace a una imagen, pero con un signo de exclamación antes de los corchetes "!", así:
+____
+____
 
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)
-
-# clase-09-proyecto-mitad-semestre
-
-## intsrucciones
-
-* hacer login en GitHub.com
-* entrar a este repositorio disponible en [https://github.com/aud5i022-2022-1/clase-09-proyecto-mitad-semestre](https://github.com/aud5i022-2022-1/clase-09-proyecto-mitad-semestre)
-* hacer click en el botón "Fork" de este repositorio para copiarlo a tu cuenta personal.
-* enviar el enlace de tu repositorio y la lista de integrantes a través de u-cursos al instructor.
-* ahora puedes editar este archivo siguiendo este enlace [README.md](README.md) y haciendo click en el ícono de lápiz para editar.
-* recomendación: grabar tus avances seguido, para que no pierdas tu avance, para esto, baja al final de la sección de edición, elige la opción " Commit directly to the main branch." luego haz click en el botón verde "Commit changes". repite esto cada vez que quieras grabar cambios.
-* para subir imágenes, haz click en este enlace a la carpeta [imagenes/](imagenes/), luego haz click en el botón "Add files" y selecciona "Upload files". arrastra tus imágenes o añadelas con el enlace "choose your files". luego elige la opción "Commit directly to the main branch" y haz click en el botón verde "Commit changes"
