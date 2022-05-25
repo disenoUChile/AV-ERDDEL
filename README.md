@@ -81,26 +81,26 @@ ej_06_perilla_mapeo x montoyamoraga (v0.0.1 abril 2022): <br />
 
 ### +Creamos:
 
-* pinEntrada / pin de lectura de informaciòn anàloga. (<sub>Potenciometro</sub>)
-* pinBoton / pin de lectura de informacion analoga. (Pulsador)
+* **pinEntrada** / pin de lectura de informaciòn anàloga. (Potenciometro)
+* **pinBoton** / pin de lectura de informacion analoga. (Pulsador)
 ##
-* pinVER / pin para controlar led VERDE.
-* pinRED / pin para controlar led ROJO.
-* pinBLU / pin para controar led AZUL.
+* **pinVER** / pin para controlar led VERDE.
+* **pinRED** / pin para controlar led ROJO.
+* **pinBLU** / pin para controar led AZUL.
 ##
-* estadoLED / variable para almacenar estado led.
-* valorSensor / variable para almacenar valor de potenciometro.
-* estadoBoton / variable para almacenar estado de pulsador.
+* **estadoLED** / variable para almacenar estado led.
+* **valorSensor** / variable para almacenar valor de potenciometro.
+* **estadoBoton** / variable para almacenar estado de pulsador.
 ##
-* valorMin - ValorMax - rangoMin - rangoMax - valorMapeado / variables para mapeo de valores.
+* **valorMin - ValorMax - rangoMin - rangoMax - valorMapeado** / variables para mapeo de valores.
 ##
-* intervalo / variable para valor de intermitencia.
-* tiempoAnterior - tiempoActual / variables para almacenar valores de tiempo. 
+* **intervalo**/ variable para valor de intermitencia.
+* **tiempoAnterior - tiempoActual** / variables para almacenar valores de tiempo. 
 
 ### +En setup(): 
  
-* pinVER - pinRED - pinBLU / salidas digitales. (LEDs)
-* pinBoton / entrada analogo-digital. (Pulsador)
+* **pinVER - pinRED - pinBLU** / salidas digitales. (LEDs)
+* **pinBoton** / entrada analogo-digital. (Pulsador)
 ##
 * Iniciar comunicacion serial 
 
@@ -136,8 +136,8 @@ ej_06_perilla_mapeo x montoyamoraga (v0.0.1 abril 2022): <br />
 * Si valor del potenciometro es mayor a 512:
   * Led rojo encendido y ajustado a valores del potenciometro. (**pinRED**)
 * De otro modo, led rojo apagado.
-##
-    
+
+____   
 ____
 
 ## Codigo para Proccesing
