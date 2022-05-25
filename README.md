@@ -120,29 +120,23 @@ ej_06_perilla_mapeo x montoyamoraga (v0.0.1 abril 2022): <br />
 ## 
 **Por medio de la condicion if:**
 * Si valor del potenciometro es menor a 1020: 
-  * Led verde encendido y ajustado a valores del potenciometro.
-  * Led azul apagado.
+  * Led verde encendido y ajustado a valores del potenciometro. (**pinVER**)
+  * Led azul apagado. (**pinBLU**)
 
 
 * De otro modo:
   * Si pulsador presionado:
     * Led verde apagado
     * Si tiempo actual es mayor al intervalo:
-      * Cambiar estado de led azul entre apagado y encencido, por medio del operador booleadno "!".     
-##
-* Led rojo encendido si valor del potenciometro supera los 512.
-  * De otro modo, led rojo apagado.
-##
-* Si valor del potenciometro es mayor a 1020:
-  * Led azul encendido
+      * Cambiar estado de led azul entre apagado y encencido, por medio del operador booleadno "**!**".
+  * De otro modo, led azul encendido.      
   * Si tiempo actual es mayor al intervalo:
-     * Cambiar estado de led verde entre apagado y encencido, por medio del operador booleano "!".
-  * Si pulsador esta apretado (HIGH):
-     * Led verde apagado
-     * Led azul intermitente 
-
-
-  * De otro modo, led azul apagado.
+    * Cambiar estado de led verde entre apagado y encendido, por medio del operador booleano "**!**". 
+##
+* Si valor del potenciometro es mayor a 512:
+  * Led rojo encendido y ajustado a valores del potenciometro. (**pinRED**)
+* De otro modo, led rojo apagado.
+##
     
 ____
 
