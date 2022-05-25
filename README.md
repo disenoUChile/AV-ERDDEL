@@ -28,6 +28,14 @@ ____
 * 2 resistencias
 * 3 leds (verde, rojo, azul)
 * cables
+
+
+#### Software
+
+* Arduino IDE 1.8.19
+* Processing 4.0b8
+
+
 ____
 
 ## Armado de circuito
