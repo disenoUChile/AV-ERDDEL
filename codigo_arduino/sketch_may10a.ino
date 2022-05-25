@@ -86,7 +86,7 @@ void loop() {
   // actualizar valor sensor
   valorSensor = analogRead(pinEntrada);
 
-    // mapear valor
+  // mapear valor
   valorMapeado = map(valorSensor, valorMin, valorMax, rangoMin, rangoMax);
 
   // leer pin y actualizar variable interna
@@ -102,6 +102,26 @@ void loop() {
   // prender LED VERDE segun brillo
   if (valorSensor < 1020) {
     analogWrite(pinVER, valorMapeado);
+    digitalWrite(pinBLU, LOW);
+  }
+
+  else {
+    if (estadoBoton == HIGH) {
+      digitalWrite(pinVER, LOW);
+    }
+
+    else {
+      // comprobar si tiempo transcurrido es mayor que intervalo
+      if (tiempoActual - tiempoAnterior >= intervalo) {
+
+        // actualizar tiempo previo
+        tiempoAnterior = tiempoActual;
+
+        estadoLED = !estadoLED;
+        digitalWrite(pinVER, estadoLED);
+
+      }
+    }
   }
 
   // prender LED ROJO cuando potenciometro llega a la mitad
@@ -118,29 +138,18 @@ void loop() {
   if (valorSensor > 1020) {
     analogWrite(pinBLU, valorMapeado);
 
-        // comprobar si tiempo transcurrido es mayor que intervalo
+
+    if (estadoBoton == HIGH) {
+      // comprobar si tiempo transcurrido es mayor que intervalo
+    }
     if (tiempoActual - tiempoAnterior >= intervalo) {
 
       // actualizar tiempo previo
       tiempoAnterior = tiempoActual;
 
       estadoLED = !estadoLED;
-      digitalWrite(pinVER, estadoLED);
-
-    }
-
-    if (estadoBoton == HIGH) {
-      digitalWrite(pinVER, LOW);
       digitalWrite(pinBLU, estadoLED);
 
     }
-
   }
-
-  else {
-    digitalWrite(pinBLU, LOW);
-
-  }
- 
-
 }
