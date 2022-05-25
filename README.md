@@ -167,28 +167,24 @@ ej_00_processing_recibe_numeros x montoyamoraga (v0.0.1 mayo 2022): <br />
 
 ### +Creamos:
 
-* pinEntrada / pin de lectura de informaciòn anàloga. (<sub>Potenciometro</sub>)
-* pinBoton / pin de lectura de informacion analoga. (Pulsador)
+* **numeroPuerto** / variable para elegir puerto serial. [**INGRESAR PUERTO CONECTADO A ARDUINO**]
 ##
-* pinVER / pin para controlar led VERDE.
-* pinRED / pin para controlar led ROJO.
-* pinBLU / pin para controar led AZUL.
+* **valorBoton** / variable para almacenar valor del pulsador.
+* **valorColor** / variable para nivel de negro-color seleccionado.
+* **valorDiametro** / variable para el diametro del elipse.
 ##
-* estadoLED / variable para almacenar estado led.
-* valorSensor / variable para almacenar valor de potenciometro.
-* estadoBoton / variable para almacenar estado de pulsador.
+* **intervalo** / variable para valor de intermitencia.
+* **tiempoAnterior - tiempoActual** / variables para almacenar valores de tiempo. 
 ##
-* valorMin - ValorMax - rangoMin - rangoMax - valorMapeado / variables para mapeo de valores.
+* importar biblioteca para comunicacion serial. (**processing.serial.* **)
 ##
-* intervalo / variable para valor de intermitencia.
-* tiempoAnterior - tiempoActual / variables para almacenar valores de tiempo. 
+* declarar variable para puerto de clase serial.
 
 ### +En setup(): 
  
-* pinVER - pinRED - pinBLU / salidas digitales. (LEDs)
-* pinBoton / entrada analogo-digital. (Pulsador)
+* Definir dimensiones del display por medio de la funcion **size()**.
 ##
-* Iniciar comunicacion serial 
+* imprimir  
 
 ### +En loop():
 
