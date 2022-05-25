@@ -1,7 +1,3 @@
-
-Commit summary
-
-
 #### Contenidos de este repositorio
 
 * carpeta [codigo_arduino/](codigo_arduino/):
@@ -176,17 +172,39 @@ ej_00_processing_recibe_numeros x montoyamoraga (v0.0.1 mayo 2022): <br />
 * **intervalo** / variable para valor de intermitencia.
 * **tiempoAnterior - tiempoActual** / variables para almacenar valores de tiempo. 
 ##
-* importar biblioteca para comunicacion serial. (**processing.serial.* **)
+* Importar biblioteca para comunicacion serial. (**processing.serial**)
 ##
-* declarar variable para puerto de clase serial.
+* Declarar variable para puerto de clase serial.
 
 ### +En setup(): 
  
 * Definir dimensiones del display por medio de la funcion **size()**.
 ##
-* imprimir  
+* Imprimir en consola todos los puertos seriales disponibles.
+##
+* Abrir puerto serial correspondiente a la tasa de 9600 baud. (Arduino Uno)
+##
+* Generar un nuevo evento de lectura cuando se recibe una nueva linea. (**'\n'**)
 
-### +En loop():
+### +En serialEvent():
+
+* Leer string ascii hasta caracter nueva linea
+* Si la entrada no esta vacia:
+  * Borrar caracteres blancos.
+  * Separar por comas y crear un arreglo de numeros float. (**datos**)
+  * Si el arreglo tiene 2 o mas elementos: 
+    * Asignar elemento 1 (valor del pulsador) a variable **valorBoton**.
+    * Asignar elemento 0 (valor del potenciometro) a variable **valorColor**.
+
+### +En draw():
+
+* Color del fondo del display.
+* Elipse verde:
+  * Controlar nivel de color por medio de varable **valorColor** (Potenciometro) 
+  * Si pulsador no esta presionado y potenciometro al "maximo":
+    * Actualizar tiempo actual
+    * Si tiempo transcurrido es mayor al intervalo:
+      * Elipse verde    
 
 
 **Actualizamos:**
