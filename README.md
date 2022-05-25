@@ -175,6 +175,7 @@ ej_00_processing_recibe_numeros x montoyamoraga (v0.0.1 mayo 2022): <br />
 * Importar biblioteca para comunicacion serial. (**processing.serial**)
 ##
 * Declarar variable para puerto de clase serial.
+##
 
 ### +En setup(): 
  
@@ -185,6 +186,7 @@ ej_00_processing_recibe_numeros x montoyamoraga (v0.0.1 mayo 2022): <br />
 * Abrir puerto serial correspondiente a la tasa de 9600 baud. (Arduino Uno)
 ##
 * Generar un nuevo evento de lectura cuando se recibe una nueva linea. (**'\n'**)
+##
 
 ### +En serialEvent():
 
@@ -196,6 +198,7 @@ ej_00_processing_recibe_numeros x montoyamoraga (v0.0.1 mayo 2022): <br />
     * Asignar elemento 1 (valor del pulsador) a variable **valorBoton**.
     * Asignar elemento 0 (valor del potenciometro) a variable **valorColor**.
 
+##
 ### +En draw():
 
 * Color del fondo del display.
