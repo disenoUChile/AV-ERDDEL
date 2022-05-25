@@ -203,6 +203,7 @@ ej_00_processing_recibe_numeros x montoyamoraga (v0.0.1 mayo 2022): <br />
 
 * Color del fondo del display.
 * Actualizar tiempo actual.
+##
 * Elipse verde:
   * Controlar nivel de color por medio de varable **valorColor** (Potenciometro) 
   * Si pulsador no esta presionado y potenciometro al "maximo":
@@ -212,14 +213,14 @@ ej_00_processing_recibe_numeros x montoyamoraga (v0.0.1 mayo 2022): <br />
   * Si pulsador esta presionado y potenciometro al maximo:
     * Elipse desaparece.
   * Dibujar elipse.
-
+##
 
 * Elipse rojo:
   * Si nivel de potenciometro mayor a 125:
     * Elipse rojo aparece y controlado por medio de variable **valorColor** (Potenciometro)
   * De otro modo desaparece.
   * Dibujar elipse.
-
+##
      
 * Elipse azul:
   * Si nivel de potenciometro al maximo:
