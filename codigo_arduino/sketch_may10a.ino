@@ -71,9 +71,6 @@ void setup() {
 
   pinMode(pinBoton, INPUT);
 
-
-
-
   // abrir comunicacion serial
   Serial.begin(9600);
 }
@@ -86,11 +83,12 @@ void loop() {
   // actualizar valor sensor
   valorSensor = analogRead(pinEntrada);
 
-  // mapear valor
-  valorMapeado = map(valorSensor, valorMin, valorMax, rangoMin, rangoMax);
 
   // leer pin y actualizar variable interna
   estadoBoton = digitalRead(pinBoton);
+
+  // mapear valor
+  valorMapeado = map(valorSensor, valorMin, valorMax, rangoMin, rangoMax);
 
 
   // imprimir valor Potenciometro y pulsador
@@ -108,21 +106,30 @@ void loop() {
   else {
     if (estadoBoton == HIGH) {
       digitalWrite(pinVER, LOW);
-    }
-
-    else {
-      // comprobar si tiempo transcurrido es mayor que intervalo
       if (tiempoActual - tiempoAnterior >= intervalo) {
 
         // actualizar tiempo previo
         tiempoAnterior = tiempoActual;
 
         estadoLED = !estadoLED;
-        digitalWrite(pinVER, estadoLED);
-
+        digitalWrite(pinBLU, estadoLED);
       }
     }
+    else {
+      digitalWrite(pinBLU, HIGH);
+    }
+    
+    // comprobar si tiempo transcurrido es mayor que intervalo
+    if (tiempoActual - tiempoAnterior >= intervalo) {
+
+      // actualizar tiempo previo
+      tiempoAnterior = tiempoActual;
+
+      estadoLED = !estadoLED;
+      digitalWrite(pinVER, estadoLED);
+    }
   }
+
 
   // prender LED ROJO cuando potenciometro llega a la mitad
   if (valorSensor > 512) {
@@ -132,24 +139,5 @@ void loop() {
   else {
     digitalWrite(pinRED, LOW);
 
-  }
-
-  // LED VERDE intermitente y prender LED AZUL cuando potenciometro llega al maximo
-  if (valorSensor > 1020) {
-    analogWrite(pinBLU, valorMapeado);
-
-
-    if (estadoBoton == HIGH) {
-      // comprobar si tiempo transcurrido es mayor que intervalo
-    }
-    if (tiempoActual - tiempoAnterior >= intervalo) {
-
-      // actualizar tiempo previo
-      tiempoAnterior = tiempoActual;
-
-      estadoLED = !estadoLED;
-      digitalWrite(pinBLU, estadoLED);
-
-    }
   }
 }
