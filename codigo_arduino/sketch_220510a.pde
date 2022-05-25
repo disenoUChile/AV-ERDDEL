@@ -15,16 +15,11 @@
 // ELIPSE AZUL PARPADEA Y VERDE DESAPARECE CUANDO PULSADOR ESTA APRETADO
 
 
-// importar biblioteca para comunicacion serial
-import processing.serial.*;
-
-// declarar nueva variable puerto de clase Serial
-Serial puerto;
 
 // declarar variable para elegir puerto serial del Arduino
-int numeroPuerto = 1;
+int numeroPuerto = 0;
 
-// declarar variable para boton
+// declarar variable para pulsador
 float valorBoton = 0;
 
 // declarar variable para nivel de negro
@@ -39,10 +34,17 @@ long intervalo = 200;
 long tiempoAnterior = 0;
 long tiempoActual = 0;
 
+
+// importar biblioteca para comunicacion serial
+import processing.serial.*;
+
+// declarar nueva variable puerto de clase Serial
+Serial puerto;
+
 // setup() ocurre una vez, al principio
 void setup() {
 
-  // crear lienzo de 400px ancho y 200px altura
+  // crear lienzo de XXXpx ancho y XXXpx altura
   size(1080, 800);
 
   // imprimir en consola todos los puertos seriales disponibles
@@ -55,21 +57,50 @@ void setup() {
   puerto.bufferUntil('\n');
 }
 
+// evento serial
+void serialEvent(Serial myPort) {
+
+  // leer String ASCII hasta caracter nueva linea
+  String entrada = myPort.readStringUntil('\n');
+
+  // si entrada no esta vacia
+  if (entrada != null) {
+
+    // borrar caracteres blancos
+    entrada = trim(entrada);
+
+    // separar por comas y crear un arreglo de numeros float
+    float[] datos = float(split(entrada, ","));
+
+    // si el arreglo tiene al menos dos elementos, llego bien
+    if (datos.length >= 2) {
+
+      // asignar elemento 1 de la entrada del pulsador
+      valorBoton = datos[1];
+
+
+      // asignar elemento 0 de la entrada del potenciometro
+      // y mapear desde rango [0,1023] a rango [0, 250]
+      valorColor = map(datos[0], 0, 1023, 0, 250);
+    }
+  }
+}
+
 void draw() {
 
   // fondo negro
   background(0);
+
+  // actualizar tiempo actual
+  tiempoActual = millis();
 
   // ELIPSE VERDE
 
   // controlar nivel de negro-verde con potenciometro
   fill(0, valorColor, 0);
 
-  // si el boton no esta presionado y potenciometro al maximo: Elipse verde parpadea.
+  // si el pulsador no esta presionado y potenciometro al maximo: Elipse verde parpadea.
   if (valorBoton == 0 && valorColor > 249) {
-
-    // actualizar tiempo actual
-    tiempoActual = millis();
 
     // comprobar si tiempo transcurrido es mayor que intervalo
     if (tiempoActual - tiempoAnterior >= intervalo) {
@@ -119,14 +150,12 @@ void draw() {
     // si boton esta apretado, elipse azul aparece y desaparece
     if (valorBoton == 1 ) {
 
-      // actualizar tiempo actual
-      tiempoActual = millis();
-
       // comprobar si tiempo transcurrido es mayor que intervalo
       if (tiempoActual - tiempoAnterior >= intervalo) {
 
         // actualizar tiempo previo
         tiempoAnterior = tiempoActual;
+
         // quitar color
         fill(0, 0, 0);
       }
@@ -141,33 +170,4 @@ void draw() {
   // dibujar elipse a la izquierda de la pantalla
   // ellipse(posX, posY, diametroX, diametroY);
   ellipse(230, height/2, valorDiametro, valorDiametro);
-}
-
-// evento serial
-void serialEvent(Serial myPort) {
-
-  // leer String ASCII hasta caracter nueva linea
-  String entrada = myPort.readStringUntil('\n');
-
-  // si entrada no esta vacia
-  if (entrada != null) {
-
-    // borrar caracteres blancos
-    entrada = trim(entrada);
-
-    // separar por comas y crear un arreglo de numeros float
-    float[] datos = float(split(entrada, ","));
-
-    // si el arreglo tiene al menos dos elementos, llego bien
-    if (datos.length >= 2) {
-      // map them to the range 0-255:
-
-      // asignar elemento 1 de la entrada de boton
-      valorBoton = datos[1];
-
-      // asignar elemento 0 a la entrada de color
-      // y mapear desde rango [0,1023] a rango [0, width]
-      valorColor = map(datos[0], 0, 1023, 0, 250);
-    }
-  }
 }
