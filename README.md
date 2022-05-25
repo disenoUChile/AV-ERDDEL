@@ -96,14 +96,14 @@ ej_06_perilla_mapeo x montoyamoraga (v0.0.1 abril 2022): <br />
 ##
 * **intervalo**/ variable para valor de intermitencia.
 * **tiempoAnterior - tiempoActual** / variables para almacenar valores de tiempo. 
-
+##
 ### +En setup(): 
  
 * **pinVER - pinRED - pinBLU** / salidas digitales. (LEDs)
 * **pinBoton** / entrada analogo-digital. (Pulsador)
 ##
 * Iniciar comunicacion serial 
-
+##
 ### +En loop():
 
 
