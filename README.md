@@ -50,6 +50,7 @@ Conectar 2 cable desde Arduino.Uno:
 
 
 
+
 2.
 
 Acoplar el pulsador al lado derecho de la protoboard y conectar 3 cables a las respectivas filas:
@@ -61,6 +62,7 @@ Acoplar el pulsador al lado derecho de la protoboard y conectar 3 cables a las r
 Desde Arduino.Uno:
 
 * **A0** - conectado a **pin2** potenciometro (fila 3)
+
 
 
 
