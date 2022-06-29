@@ -56,8 +56,8 @@ Conectar 2 cable desde Arduino.Uno:
 Acoplar el pulsador al lado derecho de la protoboard y conectar 3 cables a las respectivas filas:
 
 
-* canal positivo conectado a **pin1** potenciometro (fila 1)
-* canal negativo conectado a **pin3** potenciometro (fila 5)
+* Canal positivo conectado a **pin1** potenciometro (fila 1)
+* Canal negativo conectado a **pin3** potenciometro (fila 5)
 
 Desde Arduino.Uno:
 
@@ -71,16 +71,16 @@ Desde Arduino.Uno:
 Acoplar LED verde, azul y rojo a la protoboard, resistencias y conectar cables a los respectivos pines:
 
 LED VERDE
-* Digital 6 de Arduino.Uno a pin positivo
-* Resistencia desde pin negativo a canal negativo
+* **Digital 6** de Arduino.Uno a pin **positivo**
+* Resistencia desde pin **negativo** a canal **negativo**
 
 LED ROJO
-* Digital 4 de Arduino.Uno a pin positivo
-* Resistencia desde pin negativo a canal negativo
+* **Digital 4** de Arduino.Uno a pin **positivo**
+* Resistencia desde pin **negativo** a canal **negativo**
 
 LED AZUL
-* Digital 2 de Arduino.Uno a pin positivo
-* Resistencia desde pin negativo a canal negativo
+* **Digital 2** de Arduino.Uno a pin **positivo**
+* Resistencia desde pin **negativo** a canal **negativo**
 
 
 
@@ -89,16 +89,15 @@ LED AZUL
 
 Acoplar pulsador a protoboard, resistencia y conectar cables a respectivos pines:
 
-* Canal positivo de protoboard a pin superior
-* Digital 8 de Arduino.Uno a pin inferior
-* Resistencia entre pin inferior y canal negativo de protoboard
+* Canal **positivo** de protoboard a pin **superior**
+* **Digital 8** de Arduino.Uno a pin **inferior**
+* Resistencia entre pin **inferior** y canal **negativo** de protoboard
 
-4.1
 
-Debido a la ubicacion del pulsador en la protoboard, en este caso, se utiliza un cable para unir el canal negativo superior con el canal negativo inferior.
+*Debido a la ubicacion del pulsador en la protoboard, en este caso, se utiliza un cable para unir el canal negativo superior con el canal negativo inferior.
 **Este paso puede no ser necesario en otros modelos de protoboard**
 
-
+**
 
 
 ![texto descripción de la foto](imagenes/00-ejemplo.jpg)
