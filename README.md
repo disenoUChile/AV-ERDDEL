@@ -45,6 +45,7 @@ ____
 Conectamos 2 cable desde Arduino.Uno:
 
 **5V**  : canal positivo **+** 
+
 **GND** : canal negativo **-** 
 
 
