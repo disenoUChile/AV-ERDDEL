@@ -25,7 +25,7 @@ ____
 * 1 protoboard
 * 1 potenciómetro
 * 1 pulsador
-* 2 resistencias
+* 4 resistencias
 * 3 leds (verde, rojo, azul)
 * cables
 
