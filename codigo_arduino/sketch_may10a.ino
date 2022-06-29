@@ -28,7 +28,7 @@
 
 
 // variable para pin de lectura información análoga
-int pinEntrada = A1;
+int pinEntrada = A0;
 int pinBoton = 8;
 
 // pin de Arduino para cada led
