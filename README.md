@@ -50,7 +50,7 @@ Conectar 2 cable desde Arduino.Uno:
 
 
 
-
+##
 2.
 
 Acoplar el pulsador al lado derecho de la protoboard y conectar 3 cables a las respectivas filas:
@@ -65,8 +65,38 @@ Desde Arduino.Uno:
 
 
 
+##
+3. 
 
-3.Acoplamos el LED verde, azul y rojo a la protoboard y desde Arduino.Uno conectamos 
+Acoplar LED verde, azul y rojo a la protoboard, resistencias y conectar cables a los respectivos pines:
+
+LED VERDE
+* Digital 6 de Arduino.Uno a pin positivo
+* Resistencia desde pin negativo a canal negativo
+
+LED ROJO
+* Digital 4 de Arduino.Uno a pin positivo
+* Resistencia desde pin negativo a canal negativo
+
+LED AZUL
+* Digital 2 de Arduino.Uno a pin positivo
+* Resistencia desde pin negativo a canal negativo
+
+
+
+##
+4.
+
+Acoplar pulsador a protoboard, resistencia y conectar cables a respectivos pines:
+
+* Canal positivo de protoboard a pin superior
+* Digital 8 de Arduino.Uno a pin inferior
+* Resistencia entre pin inferior y canal negativo de protoboard
+
+4.1
+
+Debido a la ubicacion del pulsador en la protoboard, en este caso, se utiliza un cable para unir el canal negativo superior con el canal negativo inferior.
+**Este paso puede no ser necesario en otros modelos de protoboard**
 
 
 
