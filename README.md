@@ -38,7 +38,33 @@ ____
 
 ____
 
-## Armado de circuito
+## Armado de circuito:
+
+1.
+
+Conectamos 2 cable desde Arduino.Uno:
+
+**5V**  : canal positivo **+** 
+**GND** : canal negativo **-** 
+
+
+2. 
+
+Acoplamos el pulsador al lado derecho de la protoboard y conectamos 3 cables a las respectivas filas:
+
+**+**  - conectado a **pin1** potenciometro (fila 1)
+**-**  - conectado a **pin3** potenciometro (fila 5)
+
+Desde Arduino.Uno:
+
+**A0** - conectado a **pin2** potenciometro (fila 3)
+
+
+3.
+
+Acoplamos el LED verde, azul y rojo a la protoboard y desde Arduino.Uno conectamos 
+
+Desde Arduino.Uno conectamos 3 cables a la protoboard:
 
 primero hacemos X y se ve así.
 
