@@ -308,7 +308,8 @@ Aprendizajes:
 Las dificultades de este proyecto fueron escribir el readme file y los comentarios dentro del codigo. 
 
 
-El circuito utiliza 2 resistencias. Al utilizar solo una dejo de funcionar, problema fue resuelto de este modo y no se siguio investigando.
+El circuito funciona con 2 resistencias. Al utilizar solo una dejo de funcionar, problema fue resuelto de este modo y no se siguio investigando.
+Version 1.1 se llevo a cabo con 4 resistencias, 2 extras: conectando LED rojo y azul con el canal negativo, por razones esteticas mas que nada.
 
 
 Se trato de encontrar otro modo de lograr la intermitencia en los elipses verde y azul, no se ha logrado por el momento, investigacion abierta.
