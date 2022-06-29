@@ -42,11 +42,11 @@ ____
 
 1.
 
-Conectar 2 cable desde Arduino.Uno:
+Conectar dos cables desde Arduino.Uno a la protoboard:
 
 
-* **5V**  : canal positivo **+** 
-* **GND** : canal negativo **-** 
+* **5V** a canal positivo **+** 
+* **GND** a canal negativo **-** 
 
 
 
