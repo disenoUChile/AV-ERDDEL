@@ -42,16 +42,17 @@ ____
 
 1.
 
-Conectamos 2 cable desde Arduino.Uno:
+Conectar 2 cable desde Arduino.Uno:
 
 
 * **5V**  : canal positivo **+** 
 * **GND** : canal negativo **-** 
 
 
+
 2.
 
-Acoplamos el pulsador al lado derecho de la protoboard y conectamos 3 cables a las respectivas filas:
+Acoplar el pulsador al lado derecho de la protoboard y conectar 3 cables a las respectivas filas:
 
 
 * canal positivo conectado a **pin1** potenciometro (fila 1)
@@ -60,6 +61,7 @@ Acoplamos el pulsador al lado derecho de la protoboard y conectamos 3 cables a l
 Desde Arduino.Uno:
 
 * **A0** - conectado a **pin2** potenciometro (fila 3)
+
 
 
 3.Acoplamos el LED verde, azul y rojo a la protoboard y desde Arduino.Uno conectamos 
