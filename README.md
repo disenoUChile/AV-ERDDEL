@@ -54,8 +54,8 @@ Conectamos 2 cable desde Arduino.Uno:
 Acoplamos el pulsador al lado derecho de la protoboard y conectamos 3 cables a las respectivas filas:
 
 
-* **+**  - conectado a **pin1** potenciometro (fila 1)
-* **-**  - conectado a **pin3** potenciometro (fila 5)
+* canal positivo conectado a **pin1** potenciometro (fila 1)
+* canal negativo conectado a **pin3** potenciometro (fila 5)
 
 Desde Arduino.Uno:
 
