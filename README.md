@@ -12,6 +12,13 @@
   * archivo [/imagenes/2.4.JPG](/imagenes/2.4.JPG)
   * archivo [/imagenes/2.5.JPG](/imagenes/2.5.JPG)
   * archivo [/imagenes/2.6.JPG](/imagenes/2.6.JPG)
+  * archivo [/imagenes/3.1.JPG](/imagenes/3.1.JPG)
+  * archivo [/imagenes/3.2.JPG](/imagenes/3.2.JPG)
+  * archivo [/imagenes/3.3.JPG](/imagenes/3.3.JPG)
+  * archivo [/imagenes/4.1.JPG](/imagenes/4.1.JPG)
+  * archivo [/imagenes/4.2.JPG](/imagenes/4.2.JPG)
+  * archivo [/imagenes/5.1.JPG](/imagenes/5.1.JPG)
+  
 * archivo [README.md](README.md)
 ____
 
@@ -85,13 +92,19 @@ LED VERDE
 * **Digital 6** de Arduino.Uno a pin **positivo**
 * Resistencia desde pin **negativo** a canal **negativo**
 
+![3.1](imagenes/3.1.JPG)
+
 LED ROJO
 * **Digital 4** de Arduino.Uno a pin **positivo**
 * Resistencia desde pin **negativo** a canal **negativo**
 
+![3.2](imagenes/3.2.JPG)
+
 LED AZUL
 * **Digital 2** de Arduino.Uno a pin **positivo**
 * Resistencia desde pin **negativo** a canal **negativo**
+
+![3.3](imagenes/3.3.JPG)
 
 
 
@@ -103,6 +116,8 @@ Acoplar pulsador a protoboard, resistencia y conectar cables a respectivos pines
 * Canal **positivo** de protoboard a pin **superior**
 * **Digital 8** de Arduino.Uno a pin **inferior**
 * Resistencia entre pin **inferior** y canal **negativo** de protoboard
+
+![4.1](imagenes/4.1.JPG)![3.1](imagenes/4.2.JPG)
 
 
 *Debido a la ubicacion del pulsador en la protoboard, en este caso, se utiliza un cable para unir el canal negativo superior con el canal negativo inferior.
