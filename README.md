@@ -27,9 +27,9 @@ ____
 
 Proyecto ARTE VISUAL: EXPERIMENTANDO CON LA REPRESENTACION DIGITAL DE DIODOS EMISORES DE LUZ - visualizacion y principios de interfaz interactiva.
 
-![5.1](imagenes/5.1.JPG)
-
 [Martes 10 de Mayo, 2022]
+
+![5.1](imagenes/5.1.JPG)
 
 <sub> x **Javier Burgos** para aud5i022-2022-1. Diseño de interfaz eletrònica mediante Arduino - DOCENTE: **Aaron Montoya Moraga** - FAU.UCHILE -  </sub> 
 ____
