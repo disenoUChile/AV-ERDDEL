@@ -125,7 +125,7 @@ Acoplar pulsador a protoboard, resistencia y conectar cables a respectivos pines
 
 
 ##
-![5.1](imagenes/5.1.JPG)
+![5.1](imagenes/5.1.JPG)![Video1](imagenes/Video1.mp4)
 
 ____
 
