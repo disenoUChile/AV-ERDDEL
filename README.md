@@ -4,14 +4,14 @@
   * archivo 1 [codigo_arduino/sketch_may10a.ino](codigo_arduino/sketch_may10a.ino)
   * archivo 2 [codigo_arduino/sketch_220510a.pde](codigo_arduino/sketch_220510a.pde)
 * carpeta [imagenes/](imagenes/):
-  * archivo [/imagenes/1.1JPG](/imagenes/1.1JPG)
-  * archivo [/imagenes/1.2JPG](/imagenes/1.2JPG)
-  * archivo [/imagenes/2.1JPG](/imagenes/2.1JPG)
-  * archivo [/imagenes/2.2JPG](/imagenes/2.2JPG)
-  * archivo [/imagenes/2.3JPG](/imagenes/2.3JPG)
-  * archivo [/imagenes/2.4JPG](/imagenes/2.4JPG)
-  * archivo [/imagenes/2.5JPG](/imagenes/2.5JPG)
-  * archivo [/imagenes/2.6JPG](/imagenes/2.6JPG)
+  * archivo [/imagenes/1.1.JPG](/imagenes/1.1.JPG)
+  * archivo [/imagenes/1.2.JPG](/imagenes/1.2.JPG)
+  * archivo [/imagenes/2.1.JPG](/imagenes/2.1.JPG)
+  * archivo [/imagenes/2.2.JPG](/imagenes/2.2.JPG)
+  * archivo [/imagenes/2.3.JPG](/imagenes/2.3.JPG)
+  * archivo [/imagenes/2.4.JPG](/imagenes/2.4.JPG)
+  * archivo [/imagenes/2.5.JPG](/imagenes/2.5.JPG)
+  * archivo [/imagenes/2.6.JPG](/imagenes/2.6.JPG)
 * archivo [README.md](README.md)
 ____
 
@@ -55,7 +55,7 @@ Conectar dos cables desde Arduino.Uno a la protoboard:
 * **5V** a canal positivo **+** 
 * **GND** a canal negativo **-** 
 
-![Arduino.Uno](imagenes/1.1JPG) ![Protoboard](imagenes/1.2JPG)
+![Arduino.Uno](imagenes/1.1.JPG) ![Protoboard](imagenes/1.2.JPG)
 
 ##
 2.
@@ -70,9 +70,9 @@ Desde Arduino.Uno:
 
 * **A0** - conectado a **pin2** potenciometro (fila 3)
 
-![2.1](imagenes/2.1JPG) ![2.2](imagenes/2.2JPG)
-![2.3](imagenes/2.3JPG) ![2.4](imagenes/2.4JPG)
-![2.5](imagenes/2.5JPG) ![2.6](imagenes/2.6JPG)
+![2.1](imagenes/2.1.JPG) ![2.2](imagenes/2.2.JPG)
+![2.3](imagenes/2.3.JPG) ![2.4](imagenes/2.4.JPG)
+![2.5](imagenes/2.5.JPG) ![2.6](imagenes/2.6.JPG)
 
 
 
