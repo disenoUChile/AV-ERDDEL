@@ -127,6 +127,8 @@ Acoplar pulsador a protoboard, resistencia y conectar cables a respectivos pines
 ##
 ![5.1](imagenes/5.1.JPG)![Video1](imagenes/Video1.mp4)
 
+https://raw.githubusercontent.com/jibbx/AV-ERDDEL/main/imagenes/Video1.mp4
+
 ____
 
 ## Código para Arduino uno <br /> 
