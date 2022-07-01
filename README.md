@@ -49,7 +49,7 @@ Conectar dos cables desde Arduino.Uno a la protoboard:
 * **5V** a canal positivo **+** 
 * **GND** a canal negativo **-** 
 
-![Arduino.Uno](imagenes/1.JPG)
+![Arduino.Uno](imagenes/1.JPG) ![Protoboard](imagenes/2.JPG)
 
 ##
 2.
