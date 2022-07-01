@@ -29,7 +29,7 @@ Proyecto ARTE VISUAL: EXPERIMENTANDO CON LA REPRESENTACION DIGITAL DE DIODOS EMI
 
 [Martes 10 de Mayo, 2022]
 
-![5.1](imagenes/5.1.JPG)
+![6.1](imagenes/6.1.JPG)![6.2](imagenes/6.2.JPG)
 
 <sub> x **Javier Burgos** para aud5i022-2022-1. Diseño de interfaz eletrònica mediante Arduino - DOCENTE: **Aaron Montoya Moraga** - FAU.UCHILE -  </sub> 
 ____
@@ -51,6 +51,10 @@ ____
 * Arduino IDE 1.8.19
 * Processing 4.0b8
 
+
+____
+
+![5.1](imagenes/5.1.JPG)
 
 ____
 
