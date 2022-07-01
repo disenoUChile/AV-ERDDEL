@@ -4,8 +4,8 @@
   * archivo 1 [codigo_arduino/sketch_may10a.ino](codigo_arduino/sketch_may10a.ino)
   * archivo 2 [codigo_arduino/sketch_220510a.pde](codigo_arduino/sketch_220510a.pde)
 * carpeta [imagenes/](imagenes/):
-  * archivo [/imagenes/00-ejemplo.jpg](/imagenes/00-ejemplo.jpg)
   * archivo [/imagenes/1.JPG](/imagenes/1.JPG)
+  * archivo [/imagenes/2.JPG](/imagenes/2.JPG)
 * archivo [README.md](README.md)
 ____
 
@@ -99,10 +99,6 @@ Acoplar pulsador a protoboard, resistencia y conectar cables a respectivos pines
 **Este paso puede no ser necesario en otros modelos de protoboard**
 
 **
-
-
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)
-
 ____
 
 ## Código para Arduino uno <br /> 
