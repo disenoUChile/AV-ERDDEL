@@ -27,6 +27,8 @@ ____
 
 Proyecto ARTE VISUAL: EXPERIMENTANDO CON LA REPRESENTACION DIGITAL DE DIODOS EMISORES DE LUZ - visualizacion y principios de interfaz interactiva.
 
+![5.1](imagenes/5.1.JPG)
+
 [Martes 10 de Mayo, 2022]
 
 <sub> x **Javier Burgos** para aud5i022-2022-1. Diseño de interfaz eletrònica mediante Arduino - DOCENTE: **Aaron Montoya Moraga** - FAU.UCHILE -  </sub> 
@@ -125,9 +127,6 @@ Acoplar pulsador a protoboard, resistencia y conectar cables a respectivos pines
 
 
 ##
-![5.1](imagenes/5.1.JPG)
-
-
 
 https://user-images.githubusercontent.com/101606177/176938127-12be705b-e156-472e-882a-1f92a6f6f724.mp4
 
