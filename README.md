@@ -123,7 +123,10 @@ Acoplar pulsador a protoboard, resistencia y conectar cables a respectivos pines
 *Debido a la ubicacion del pulsador en la protoboard, en este caso, se utiliza un cable para unir el canal negativo superior con el canal negativo inferior.
 **Este paso puede no ser necesario en otros modelos de protoboard**
 
-**
+
+##
+![5.1](imagenes/5.1.JPG)
+
 ____
 
 ## Código para Arduino uno <br /> 
